@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="advice.html">Advice</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>SURVEY ִ𐙚</h1>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #ffa3cd;
+    }
+
+    header {
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1em;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom-color: solid #df95b0 ;
+        border-bottom: 2px solid #df95b0;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 1em;
+    }
+
+    nav ul li a {
+        font-family: 'Aboreto';
+        font-size: 22px;
+        text-decoration: none;
+        color: #df95b0;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        border-radius: 8px;
+        transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+.hero, .about, .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.hero {
+    height: 100vh;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 2em;
+}
+
+h1 {
+    color: #ff6f91;
+            font-size: 2rem;
+            font-family: 'Aboreto';
+            text-decoration: none;
+            color: #d83a74;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #fd9db3;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ff6f91;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color:#ff8ca7;
+    border-right: 1px solid #ec2d73;
+}
+
+.visual-boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-bottom: 50px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #df95b0;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+.box h3 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #ff6f91;
+            font-family: 'Aboreto';
+            text-decoration: none;
+            color: #ec2d73;
+        }
+
+        .box p {
+            color: #333;
+            font-size: 0.9rem;
+            margin: 0.5rem 0 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+</style>
+
+<section class="visual-boxes">
+    <div class="box"><div class="content">
+<p>What time do you usually wake up?</p>
+<p></p>
+<form>
+      <input type="radio" id="early" name="fav_language" value="HTML">
+      <label for="early">5:00 AM - 6:00 AM   (EARLY MORNING)</label><br>
+      <input type="radio" id="morning" name="fav_language" value="CSS">
+      <label for="morning"> 7:00 AM - 8:00 AM   (MORNING)</label><br>
+      <input type="radio" id="late" name="fav_language" value="HTML">
+      <label for="early">9:00 AM - 10:00 AM (LATE MORNING)</label><br>
+    </form> 
+</div></div>
+
+    <div class="box"><div class="content">
+        <p>How much time do you like to spend outside in the morning?</p><p></p>
+    <form>
+          <input type="radio" id="early" name="fav_language" value="HTML">
+          <label for="early">I love going outside for a walk or run</label><br>
+          <input type="radio" id="morning" name="fav_language" value="CSS">
+          <label for="morning">I prefer to stay inside</label><br>
+          <input type="radio" id="late" name="fav_language" value="HTML">
+          <label for="early">I don’t mind either way, as long as it’s a good day</label><br>
+        </form> 
+</div></div>
+
+<div class="box"><div class="content">
+<p>Do you prefer a calm and quiet morning or a busy and productive morning?</p><p></p>
+        <form>
+              <input type="radio" id="early" name="fav_language" value="HTML">
+              <label for="early">Calm and quiet</label><br>
+              <input type="radio" id="morning" name="fav_language" value="CSS">
+              <label for="morning">Busy and productive</label><br>
+              <input type="radio" id="late" name="fav_language" value="HTML">
+              <label for="early">Depends on the day</label><br>
+            </form>
+</div></div>
+
+<div class="box"><div class="content">
+    <p>Do you prefer to exercise in the morning or later in the day?</p><p></p>
+            <form>
+                  <input type="radio" id="early" name="fav_language" value="HTML">
+                  <label for="early">Morning</label><br>
+                  <input type="radio" id="morning" name="fav_language" value="CSS">
+                  <label for="morning">Later in the day</label><br>
+                  <input type="radio" id="late" name="fav_language" value="HTML">
+                  <label for="early">I don't exercise</label><br>
+                </form>
+</div></div>
+<div class="box"><div class="content">
+<p>Do you always do activities in the morning?</p><p></p>
+                <form>
+                      <input type="radio" id="early" name="fav_language" value="HTML">
+                      <label for="early">there is a task that needs to be done</label><br>
+                      <input type="radio" id="morning" name="fav_language" value="CSS">
+                      <label for="morning">I want to rest today</label><br>
+                    </form> 
+</div></div>
+                    <input type="submit" value="Submit">
+</section>
+
+</html>

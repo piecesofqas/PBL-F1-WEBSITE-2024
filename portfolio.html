@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="advice.html">Advice</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">
+            <h1>Website About</h1>
+            <p>This website offers diet and skincare recommendations to support and assist users. It also includes a questionnaire to provide personalized routine schedule suggestions. It is especially beneficial for students or anyone struggling to manage their schedules effectively.</p>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #ffa3cd;
+    }
+
+    header {
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1em;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom-color: solid #df95b0 ;
+        border-bottom: 2px solid #df95b0;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 1em;
+    }
+
+    nav ul li a {
+        font-family: 'Aboreto';
+        font-size: 22px;
+        text-decoration: none;
+        color: #df95b0;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        border-radius: 8px;
+        transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+.hero, .about, .portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2em;
+}
+
+.hero {
+    height: 100vh;
+    justify-content: center;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    margin: 2em;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #880e4f;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 600px;
+    margin: 1em 0;
+    text-shadow: 1px 1px 3px #880e4f;
+}
+
+.login-btn {
+    background-color: #ff6f91;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ff3366;
+}
+
+/* Login Form */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    color: #ff6f91;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #ff6f91;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #ff6f91;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff3366;
+}
+</style>
+</html>

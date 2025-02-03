@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #ff6f91;
+        }
+
+        header {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #df95b0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            font-family: 'Aboreto';
+            font-size: 22px;
+            text-decoration: none;
+            color: #df95b0;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        main {
+            padding: 2rem;
+        }
+
+        .about {
+            margin-bottom: 2rem;
+        }
+
+        .about h1 {
+            color: #ff6f91;
+            font-size: 2rem;
+            font-family: 'Aboreto';
+            text-decoration: none;
+            color: #d83a74;
+        }
+
+        .visual-boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            border: 1px solid #df95b0;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .visual-boxestwo {
+            display: flex;
+            flex-direction: row;
+            gap: 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1rem;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        .box img {
+            flex: 0 0 100px;
+            height: 100px;
+            border-radius: 5px;
+            margin-right: 1rem;
+        }
+
+        .box h3 {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #ff6f91;
+            font-family: 'Aboreto';
+            text-decoration: none;
+            color: #ec2d73;
+        }
+
+        .box p {
+            color: #333;
+            font-size: 0.9rem;
+            margin: 0.5rem 0 0;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="advice.html">Advice</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>DIET ADVICES ִ𐙚</h1>
+            <p>This website offers diet and skincare recommendations to support and assist users. It also includes a questionnaire to provide personalized routine schedule suggestions. It is especially beneficial for students or anyone struggling to manage their schedules effectively.</p>
+        </section>
+
+        <section class="visual-boxes">
+            <div class="box">
+                <img src="image/one.png" alt="Blueberry pancakes">
+                <div class="content">
+                    <h3>Blueberry Pancakes</h3>
+                    <p>- Use whole wheat flour: Make healthy pancakes using whole wheat flour, oats, mashed banana, milk, eggs, and spices.<br>
+                       - Reduce added sugar: Make pancakes without added sugar.<br>
+                       - Use yogurt: Use regular or Greek yogurt, plain, vanilla, blueberry, or honey-flavored.<br>
+                       - Substitute sweeteners: Substitute honey, coconut sugar, or brown sugar for maple syrup.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/two.png" alt="Brown rice tofu">
+                <div class="content">
+                    <h3>Brown Rice Tofu</h3>
+                    <p>- Use firm tofu: Ensure it holds its shape when cooked.<br>
+                       - Marinate tofu: Marinate tofu cubes in soy sauce, paprika, garlic powder, and olive oil for flavor.<br>
+                       - Steam broccoli: Steam broccoli florets to keep nutrients intact.<br>
+                       - Use brown rice: For added fiber and nutrients, or substitute with white rice for a milder taste.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/three.png" alt="Caesar salad">
+                <div class="content">
+                    <h3>Caesar Salad</h3>
+                    <p>- Use fresh lettuce: Use crisp romaine lettuce as the base.<br>
+                       - Add whole-grain croutons: Swap traditional croutons for whole-grain or baked ones for a healthier crunch.<br>
+                       - Use a light dressing: Opt for a low-fat or homemade Caesar dressing to reduce calories.<br>
+                       - Incorporate protein: Add grilled chicken, shrimp, or chickpeas to make it more filling.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+        <h1>SKINCARE ADVICES ִ𐙚 </h1>
+        <p>This website offers diet and skincare recommendations to support and assist users. It also includes a questionnaire to provide personalized routine schedule suggestions. It is especially beneficial for students or anyone struggling to manage their schedules effectively.</p>
+        </section>
+
+        <section class="visual-boxestwo">
+            <div class="box">
+                <img src="image/first.png" alt="Blueberry pancakes">
+                <div class="content">
+                    <h3>Face Wash</h3>
+                    <p>Wash your face twice daily with a gentle cleanser to remove dirt, oil, and makeup. Overwashing or using harsh products can strip natural oils and cause irritation.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/second.png" alt="Brown rice tofu">
+                <div class="content">
+                    <h3>moisturizer</h3>
+                    <p>Use a moisturizer suited to your skin type like for example, lightweight gel for oily skin, cream for dry skin to keep your skin hydrated and maintain its barrier function..</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/third.png" alt="Caesar salad">
+                <div class="content">
+                    <h3>Sunscreen</h3>
+                    <p>Protect your skin from UV damage by using a broad-spectrum sunscreen with at least SPF 30, even on cloudy days or indoors near windows</p>
+                </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

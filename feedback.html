@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="advice.html">Advice</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="scripts.js"></script>
+</body>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        color: #ffa3cd;
+    }
+
+    header {
+        backdrop-filter: blur(10px);
+        background: rgba(255, 255, 255, 0.2);
+        padding: 1em;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        border-bottom-color: solid #df95b0 ;
+        border-bottom: 2px solid #df95b0;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 1em;
+    }
+
+    nav ul li a {
+        font-family: 'Aboreto';
+        font-size: 22px;
+        text-decoration: none;
+        color: #df95b0;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        border-radius: 8px;
+        transition: background 0.3s;
+    }
+
+    nav ul li a:hover {
+        background: rgba(255, 255, 255, 0.3);
+    }
+
+    input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#ffa8d3;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #e87cb2;
+}
+
+div {
+  margin: auto;
+  border-radius: 5px;
+  background-color: lightgrey;
+  width: 1000px;
+  border: 15px solid rgb(236, 236, 236);
+  padding: 50px;
+  margin-top: 80px;
+  
+}
+
+.yes{
+    margin: 0;
+            font-size: 1.2rem;
+            color: #ff6f91;
+            font-family: 'Aboreto';
+            text-decoration: none;
+            color: white;
+
+}
+
+</style>
+
+<div>
+    <form action="feedback2.php" method="POST">
+        <section class="yes">
+      <label for="fname">Name</label>
+      </section>
+      <input type="text" id="name" name="name" placeholder="Your name..">
+      <section class="yes">
+      <label for="Email">Email</label>
+      </section>
+      <input type="text" id="email" name="email" placeholder="Your email..">
+      <section class="yes">
+      <label for="lname">Feedback</label>
+      </section>
+      <input type="text" id="feedback" name="feedback" placeholder="Your..">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</html>

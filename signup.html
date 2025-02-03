@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your dream morning routine by signing up today!">
+    <title>Sign Up - Your Dream Morning Routine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <section class="signup_process.php" method="POST">
+            <h1>Create Your Dream Routine</h1>
+            <p>Sign up to start your personalized journey toward a glowing, nourishing morning routine!</p>
+            <form action="#" method="post">
+                <div class="input-field">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="Enter your first name">
+                </div>
+                <div class="input-field">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required placeholder="Enter your last name">
+                </div>
+                <div class="input-field">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="input-field">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required placeholder="Create a password">
+                </div>
+                <a href="Index.html" class="cta-btn">Submit</a>
+            </form>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #df95b0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            font-family: 'Aboreto';
+            font-size: 22px;
+            text-decoration: none;
+            color: #df95b0;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .sign-up {
+            max-width: 500px;
+            margin: 5em auto;
+            padding: 2em;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-family: 'Aboreto';
+            color: #df95b0;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #666;
+            margin: 1em 0;
+        }
+
+        .input-field {
+            margin-bottom: 1.5em;
+            text-align: left;
+        }
+
+        .input-field label {
+            font-size: 1rem;
+            color: #df95b0;
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        .input-field input {
+            width: 100%;
+            padding: 0.8em;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-sizing: border-box;
+            margin-bottom: 0.5em;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #e79dc0;
+            padding: 15px 30px;
+            text-shadow: 1px 1px 3px #ffa8d3;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cta-btn:hover {
+            background-color: #ff6f91;
+            color: #fff;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+
+        a {
+            color: #df95b0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</body>
+</html>
