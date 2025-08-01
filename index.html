@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Create your dream morning routine with tips for self-care, nourishing bites, and glowing skin.">
+    <title>Your Dream Morning Routines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Aboreto" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Home">Home</a></li>
+                <li><a href="about.html" aria-label="About">About</a></li>
+                <li><a href="survey.html" aria-label="Survey">Survey</a></li>
+                <li><a href="advice.html" aria-label="Advice">Advice</a></li>
+                <li><a href="feedback.html" aria-label="Feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Your Dream Morning Routine</h1>
+            <p>Glow every morning, nourish every bite, and love the skin you’re in—because self-care is the ultimate routine.</p>
+            <a href="advice.html" class="cta-btn">Get Started</a>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        header {
+            backdrop-filter: blur(10px);
+            background: rgba(255, 255, 255, 0.2);
+            padding: 1em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid #df95b0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+        nav ul li a {
+            font-family: 'Aboreto';
+            font-size: 22px;
+            text-decoration: none;
+            color: #df95b0;
+            font-weight: bold;
+            padding: 0.5em 1em;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('image/hero.png');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px #5f5f5f;
+            font-family: 'Aboreto';
+        }
+
+        p {
+            font-size: 1.5rem;
+            max-width: 600px;
+            margin: 1em 0;
+            text-shadow: 1px 1px 3px #575757;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #ffffff;
+            color: #e79dc0;
+            padding: 15px 30px;
+            text-shadow: 1px 1px 3px #ffa8d3;
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+        }
+
+        .cta-btn:hover {
+            background-color: #ff6f91;
+            color: #fff;
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+            transform: translateY(-2px);
+        }
+    </style>
+</body>
+</html>
